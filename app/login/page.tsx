@@ -48,7 +48,7 @@ export default function LoginPage() {
     placeholder="Full Name"
     value={name}
     onChange={(e) => setName(e.target.value)}
-    className="w-full p-2 border border-gray-300 text-black rounded mb-2 focus:ring focus:ring-blue-300"
+    className="w-full p-2 border border-black text-black rounded mb-2 focus:ring focus:ring-blue-300"
     required
   />
 )}
